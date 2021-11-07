@@ -13,9 +13,6 @@ public class Schedule {
     private Document document;
     String url;
 
-    public Schedule() {
-    }
-
     public void connect() {
         try {
             document = Jsoup.connect(url).get();
