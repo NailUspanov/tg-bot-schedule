@@ -10,7 +10,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import java.util.ArrayList;
 
 public class Bot extends TelegramLongPollingBot {
-    public static String BOT_TOKEN = "2055820101:AAHgXvHaF4y5YIZqjrwRq6IcURRNEUUhzE0";
+    public static String BOT_TOKEN = "";
     ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
     Schedule schedule;
 
